@@ -1,0 +1,65 @@
+.translator_body {
+    padding: 10px;
+}
+.translate_from_sec, .translate_to_sec {
+    border: 1px solid #c9c9c9;
+    height: 247px;
+    width: 450px;
+}
+
+
+.translate_sec {
+    display: flex;
+    justify-content: center;
+}
+
+.swipe_ic {
+    padding: 5px;
+
+}
+
+.swipe_horizantal {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+textarea {
+    border: none!important;
+    resize: none!important;
+    outline: none!important;
+}
+
+.select_translation_from, .select_translation_to {
+    width: 150px;
+}
+
+.select_translation_sec {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.gTranslate_sec {
+    margin-top: -35px;
+    margin-right: 9px;
+    text-align: right;
+}
+
+.material-icons {
+    color: #0061cd;
+    cursor: pointer;
+}
+
+.gTranslate_sec {
+    display: none;
+}
+
+.translate_from_input {
+
+    background: #59a683;
+}
+
+span.material-icons.swipe_horizantal {
+    color: black;
+}
